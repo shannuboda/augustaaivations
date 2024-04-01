@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700'); 
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+
+
+%boxShadow { box-shadow: 0 0 30rem 0 #000000; }
+%boxShadow--in { box-shadow: 0 0 10rem 0 #000000 inset; }
+
+body { @extend %boxShadow--in; }
+
+
+.svg-calLoader {
+   width: 23rem; 
+   height: 23rem;
+  transform-origin: 11rem 11rem;
+  animation: 12.4s linear infinite loader-spin;
+}
+svg
+{
+    height: 5rem;
+    width: 5rem;
+}
+
+.cal-loader__plane { fill: $c-hilight; }
+.cal-loader__path { stroke: $c-front; animation: 1.4s ease-in-out infinite loader-path; }
+
+@keyframes loader-spin {
+  to{
+    transform: rotate(360deg);
+  }
+}
+@keyframes loader-path {
+  0%{
+    stroke-dasharray:  0, 580, 0, 0, 0, 0, 0, 0, 0;
+  }
+  50%{
+    stroke-dasharray: 0, 450, 10, 30, 10, 30, 10, 30, 10;
+  }
+  100%{
+    stroke-dasharray: 0, 580, 0, 0, 0, 0, 0, 0, 0;
+  }
+}

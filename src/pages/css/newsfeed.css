@@ -1,0 +1,83 @@
+.r
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.d1
+{
+   width: 3rem;
+   display: inline;
+   height: .5rem;
+   margin-top: .5rem;
+   margin-left: 1rem;
+   margin-right: 1rem;
+   background-color: brown;
+}
+.r1 h1
+{
+    font-size: 3.2rem;
+    padding:2rem;
+    color: #212529;
+    text-align: center;
+}
+.card-date
+{
+    padding: 9px 22px;
+    font-size: 12px;
+    height: 30px;
+    font-weight: 600;
+    color: #fff;
+    background: linear-gradient(90deg,#5522fa 0,#0074e4 100%);
+    border-radius: 50px;
+    transition: color .2s ease,background-color .2s ease,box-shadow .2s ease;
+    width: 8rem;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-date:hover{
+    box-shadow: 0 0 0 0.15rem #5ceace;
+}
+.item-link1
+{
+    color: #55042a;
+    font-size: 1rem;
+    font-weight: bolder;
+    text-align: right !important;
+    text-decoration: none;
+    
+}
+.item-link1:hover
+{
+    text-decoration: underline;
+    
+}
+.card-image
+{
+    width: 21rem;
+}
+.cards
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background: bisque;
+    padding: 2rem;
+}
+.cards .card
+{
+    transition: transform 0.3s ease;
+}
+.cards .card:hover
+{
+    transform: scale(1.1);
+}
+@media screen and (min-width:320px) and (max-width:480px) {
+    .card-image
+    {
+        width: 15rem;
+    }
+}

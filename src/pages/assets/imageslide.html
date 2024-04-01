@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Logo Carousel</title>
+<style>
+.carousel-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel {
+  display: flex; /* Use flexbox for easier manipulation */
+  animation: scrollAnimation 10s steps(10) infinite; /* Adjust animation duration */
+}
+
+.carousel img {
+  width: 100px; /* Adjust as needed */
+  height: auto;
+  margin: 0 10px; /* Adjust spacing between logos */
+}
+
+@keyframes scrollAnimation {
+  from { transform: translateX(0); }
+  to { transform: translateX(calc(-110px * 10)); } /* Adjust based on image width and number of images */
+}
+</style>
+</head>
+<body>
+
+<div class="carousel-container">
+  <div class="carousel">
+    <img src="logo1.jpg" alt="Logo 1">
+    <img src="logo2.jpg" alt="Logo 2">
+    <!-- Add remaining logos here -->
+    <img src="logo10.jpg" alt="Logo 10">
+  </div>
+</div>
+
+</body>
+</html>

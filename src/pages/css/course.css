@@ -1,0 +1,75 @@
+.course-1 .r
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.course-1 .d1
+{
+   width: 3rem;
+   display: inline;
+   height: .5rem;
+   margin-top: .5rem;
+   margin-left: 1rem;
+   margin-right: 1rem;
+   background-color: brown;
+}
+.r1 h1
+{
+    font-size: 3.2rem;
+    padding:2rem;
+    color: #212529;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom:2rem ;
+}
+.item-head
+{
+    font-weight: bolder;
+}
+.item-head h4
+{
+    font-weight: 600;
+    font-family:sans-serif;
+    text-align: start;
+    color: #212529;
+    cursor: pointer;
+    transition: color 0.3s ease, color 0.3s ease;
+}
+.item-head h4:hover
+{
+    color: brown;
+}
+.item-des h6
+{
+    text-align: left;
+    font-size: larger;
+    color: #878787;
+
+}
+.item-link
+{
+    color: #55042a;
+    font-size: 1rem;
+    font-weight: bolder;
+    display: flex;
+    justify-content: flex-end;
+    max-width: 35rem;
+    text-decoration: none;
+    
+}
+.item-link:hover
+{
+    text-decoration: underline;
+    
+}
+@media screen and (min-width:320px) and (max-width:374px) {
+    .r h4
+    {
+        font-size: 1rem;
+    }
+    .course-1 .r1 h1{
+        font-size: 1.8rem !important;
+    }
+   
+}

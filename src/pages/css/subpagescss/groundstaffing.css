@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+
+.groundstaffingbanner{
+    position: relative;
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.groundstaffingbanner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../subpagescss/images/check-in-Board.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.3; /* Adjust the opacity value as needed */
+  }
+
+  .groundstaffingbanner h3
+  {
+    font-weight: 500;
+    font-size: 3rem;
+    text-align: center;
+
+    
+  }
+  .groundstaffingbanner p
+  {
+    font-size: 2rem;
+  }
+  .ground-head h2{
+    font-family:'Times New Roman', Times, serif;
+    color:#55042a;
+    font-size: 1.9rem;
+    margin-top: 2rem
+  }
+  .ground-head p{
+    text-align: justify;
+    font-size: 1.1rem;
+    margin-top: 2rem;
+    font-weight:400;
+    font-family: "Merriweather", serif;
+    color:  #7e6c8d;
+  }
+  .ground-head ul
+  {
+    list-style: none;
+  }
+  .ground-head ul li
+  {
+    margin-bottom: .8rem;
+  }
+  .ground-head ul li span
+  {
+    text-align: left;
+    font-size: 1rem;
+    font-weight:400;
+    font-family: "Merriweather", serif;
+    color:  #7e6c8d;
+  }

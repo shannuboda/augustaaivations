@@ -1,0 +1,16 @@
+ const sheets = SpreadsheetApp.openByUrl("Google Sheet Link");
+ //if you have changed your sheet name then replace the below Sheet1 with your sheet name
+
+function doPost(e){
+  const sheet = sheets.getSheetByName("Augusta");
+  let data = e.parameter;
+  const currentDate = new Date();
+const formattedDate = currentDate.toLocaleString(); // Format the date as a string
+
+  sheet.appendRow([data.Fname,data.Lname,data.Contactemail,data.Contactphone,data.Contactcourse,data.Comment,formattedDate]);
+  return ContentService.createTextOutput("Your message was successfully sent to the Googlesheet database!");
+}
+
+
+
+
