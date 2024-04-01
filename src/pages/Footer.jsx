@@ -49,12 +49,12 @@ function Footer() {
               <div className="f2_2">
                   <h4>Popular Courses</h4>
                   <ul>
-                    <li onClick={()=>{Navigate('/airportmanagement')}}> <span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span >&nbsp;&nbsp;AUGUSTA Certified Airport Management</li>
-                    <li onClick={()=>{Navigate('/groundstaff')}}><span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>&nbsp;&nbsp;Aviation,  Ground Staffing Training </li>
-                    <li onClick={()=>{Navigate('/ticketing')}}> <span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>&nbsp;&nbsp;AUGUSTA Certified Ticketing</li>
-                    <li onClick={()=>{Navigate('/cabincrew')}}> <span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>&nbsp;&nbsp;AUGUSTA Certified Cabin Crew</li>
-                    <li onClick={()=>{Navigate('/cargo')}}> <span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>&nbsp;&nbsp;AUGUSTA Certified Cargo Course</li>
-                    <li onClick={()=>{Navigate('/pilot')}}>  <span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>&nbsp;&nbsp;AUGUSTA Certified Pilot Course</li>
+                    <li onClick={()=>{Navigate('/airportmanagement')}} style={{cursor:'pointer'}}> <span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span >&nbsp;&nbsp;AUGUSTA Certified Airport Management</li>
+                    <li onClick={()=>{Navigate('/groundstaff')}} style={{cursor:'pointer'}}><span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>&nbsp;&nbsp;Aviation,  Ground Staffing Training </li>
+                    <li onClick={()=>{Navigate('/ticketing')}} style={{cursor:'pointer'}}> <span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>&nbsp;&nbsp;AUGUSTA Certified Ticketing</li>
+                    <li onClick={()=>{Navigate('/cabincrew')}} style={{cursor:'pointer'}}> <span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>&nbsp;&nbsp;AUGUSTA Certified Cabin Crew</li>
+                    <li onClick={()=>{Navigate('/cargo')}} style={{cursor:'pointer'}}> <span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>&nbsp;&nbsp;AUGUSTA Certified Cargo Course</li>
+                    <li onClick={()=>{Navigate('/pilot')}} style={{cursor:'pointer'}}>  <span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>&nbsp;&nbsp;AUGUSTA Certified Pilot Course</li>
 
                   </ul>
               </div>
